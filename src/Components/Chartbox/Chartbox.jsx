@@ -5,7 +5,7 @@ import { Line, LineChart, Tooltip, } from "recharts";
 const Chartbox = ({ props }) => {
 
     return (
-        <div className="border-[1px] rounded-lg p-5 h-full">
+        <div className="border-[1px] rounded-lg p-5 h-full py-10">
             <div className="flex justify-between items-center gap-4">
                 <div className="flex flex-col justify-center items-start gap-5">
                     <div className="flex justify-evenly">

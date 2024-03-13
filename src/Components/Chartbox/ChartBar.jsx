@@ -4,9 +4,9 @@ import { Bar, BarChart, Tooltip, } from "recharts";
 
 const ChartBar = ({ props }) => {
     return (
-        <div className="barChartBox">
+        <div>
             <h1 className="text-xl text-white font-bold">{props.title}</h1>
-            <div className="chart">
+            <div className="mt-5">
 
                 <BarChart width={250} height={150} data={props.chartData}>
                     <Tooltip
